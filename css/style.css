@@ -7364,8 +7364,8 @@ h1, h2, h3, h4, h5,
       display: inline-block;
       color: #fff; }
     .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
-      background: #f85959;
-      border: 1px solid #f85959; }
+      background: #3E80B6;
+      border: 1px solid #3E80B6; }
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored span {
     border-color: #f85959; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
@@ -7537,7 +7537,7 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 30px;
     border-radius: 30px; }
     .slider-text .btn-primary:hover, .slider-text .btn-primary:focus {
-      background: #fff !important;
+      background: #fff;
       color: #000000; }
 
 .owl-carousel {
@@ -7641,8 +7641,8 @@ h1, h2, h3, h4, h5,
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #3E80B6;
-      background: transparent;
-      color: #3E80B6; }
+      background: #3E80B6;
+      color: #fff; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #f85959;
       background: transparent;
