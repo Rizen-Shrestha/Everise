@@ -386,16 +386,20 @@
           <!-- .col-md-8 -->
           <div class="col-md-4 sidebar ftco-animate">
             <div class="sidebar-box">
-              <form action="#" class="search-form">
+              <form class="search-form">
                 <div class="form-group">
                   <span class="icon fa fa-search"></span>
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control search-input"
                     placeholder="Type a keyword and hit enter"
                   />
                 </div>
               </form>
+              <div
+                class="search-message"
+                style="margin-top: 10px; color: red"
+              ></div>
             </div>
             <div class="sidebar-box ftco-animate">
               <div class="categories">
@@ -431,8 +435,7 @@
                 <div class="text">
                   <h3 class="heading">
                     <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
+                      >Hidden Gems: Lesser-Known Places Worth Visiting</a
                     >
                   </h3>
                   <div class="meta">
@@ -457,10 +460,7 @@
                 ></a>
                 <div class="text">
                   <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
-                    >
+                    <a href="#">Essential Packing Tips for Nepal Adventures</a>
                   </h3>
                   <div class="meta">
                     <div>
@@ -480,14 +480,13 @@
               <div class="block-21 mb-4 d-flex">
                 <a
                   class="blog-img mr-4"
-                  style="background-image: url(images/image_3.jpg)"
+                  style="
+                    background-image: url(images/best-time-placeholder.jpg);
+                  "
                 ></a>
                 <div class="text">
                   <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
-                    >
+                    <a href="#">Best Time to Visit Nepal for Every Traveler</a>
                   </h3>
                   <div class="meta">
                     <div>
@@ -507,7 +506,7 @@
             </div>
 
             <div class="sidebar-box ftco-animate">
-              <h3>Tag Cloud</h3>
+              <h3>Preferences</h3>
               <div class="tagcloud">
                 <a href="#" class="tag-cloud-link">dish</a>
                 <a href="#" class="tag-cloud-link">menu</a>
@@ -518,16 +517,6 @@
                 <a href="#" class="tag-cloud-link">desserts</a>
                 <a href="#" class="tag-cloud-link">drinks</a>
               </div>
-            </div>
-
-            <div class="sidebar-box ftco-animate">
-              <h3>Paragraph</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ducimus itaque, autem necessitatibus voluptate quod mollitia
-                delectus aut, sunt placeat nam vero culpa sapiente consectetur
-                similique, inventore eos fugit cupiditate numquam!
-              </p>
             </div>
           </div>
         </div>
@@ -673,5 +662,14 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+    <!-- JQuery for coming soon feature -->
+    <script>
+      $(document).ready(function () {
+        $(".search-form").on("submit", function (e) {
+          e.preventDefault();
+          alert("This feature is still in progress. Stay tuned for updates!");
+        });
+      });
+    </script>
   </body>
 </html>
