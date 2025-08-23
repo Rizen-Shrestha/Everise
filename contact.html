@@ -121,12 +121,12 @@
           </div>
 
           <div class="col-md-6 pr-md-5">
-            <form action="#">
+            <form id="myform" action="">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" class="form-control" placeholder="Your Name" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="email" class="form-control" placeholder="Your Email" required>
               </div>
               <div class="form-group">
                 <input type="tel" pattern="[0-9]+" class="form-control" placeholder="Your Phone">
@@ -138,6 +138,14 @@
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
               </div>
             </form>
+
+            <script>
+              document.getElementById("myform").addEventListener("submit", function(e) {
+                e.preventDefault();
+                alert("Your message has been submitted");
+                this.reset();
+              });
+            </script>
           
           </div>
         </div>
