@@ -64,12 +64,25 @@
     </div>
 
 
+	
     <section class="ftco-section ftco-degree-bg">
       <div class="container">
+		<div class="ftco-animate mb-5">
+			<h3 class="heading mb-4 mt-5 text-center">Find Your Interest</h3>
+			<div class="container my-4 text-center">
+				<div class="btn-group" role="group" aria-label="Package Categories">
+					<button type="button" class="btn btn-outline-primary active" data-filter="all">All</button>
+					<button type="button" class="btn btn-outline-primary" data-filter="trekking">Trekking</button>
+					<button type="button" class="btn btn-outline-primary" data-filter="cultural">Cultural Heritage</button>
+					<button type="button" class="btn btn-outline-primary" data-filter="nature">Nature & Wildlife</button>
+				</div>
+			</div>
+
+        </div>
         <div class="row">
-          <div class="col-lg-9">
+          <div class="">
           	<div class="row">
-				<div class="col-md-4 ftco-animate">
+				<div class="col-md-4 ftco-animate" data-location="Trekking">
 					<div class="destination">
 						<a href="hotel-single.html" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/langtang.jpg);">
 							<div class="icon d-flex justify-content-center align-items-center">
@@ -135,38 +148,6 @@
 
 				<div class="col-md-4 ftco-animate">
 					<div class="destination">
-						<a href="hotel-single.html" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/lumbini.jpg);">
-							<div class="icon d-flex justify-content-center align-items-center">
-						<span class="icon-search2"></span>
-					</div>
-						</a>
-						<div class="text p-3">
-							<div class="d-flex">
-								<div>
-									<h3><a href="hotel-single.html">Lumbini Pilgrimage</a></h3>
-									<p class="rate">
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<i class="icon-star"></i>
-										<span>16 Rating</span>
-									</p>
-								</div>
-							</div>
-							<p>Birthplace of Lord Buddha, Maya Devi Temple, Ashokan Pillar, Monastic Zone.</p>
-							<p class="days"><span>3 days 4 nights</span></p>
-							<hr>
-							<p class="bottom-area d-flex">
-								<span><i class="icon-map-o"></i> Lumbini</span> 
-								<span class="ml-auto"><a href="#">Explore ></a></span>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 ftco-animate">
-					<div class="destination">
 						<a href="hotel-single.html" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/chitwan.jpg);">
 							<div class="icon d-flex justify-content-center align-items-center">
 						<span class="icon-search2"></span>
@@ -191,6 +172,38 @@
 							<hr>
 							<p class="bottom-area d-flex">
 								<span><i class="icon-map-o"></i> Sauraha</span> 
+								<span class="ml-auto"><a href="#">Explore ></a></span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 ftco-animate">
+					<div class="destination">
+						<a href="hotel-single.html" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/lumbini.jpg);">
+							<div class="icon d-flex justify-content-center align-items-center">
+						<span class="icon-search2"></span>
+					</div>
+						</a>
+						<div class="text p-3">
+							<div class="d-flex">
+								<div>
+									<h3><a href="hotel-single.html">Lumbini Pilgrimage</a></h3>
+									<p class="rate">
+										<i class="icon-star"></i>
+										<i class="icon-star"></i>
+										<i class="icon-star"></i>
+										<i class="icon-star"></i>
+										<i class="icon-star"></i>
+										<span>16 Rating</span>
+									</p>
+								</div>
+							</div>
+							<p>Birthplace of Lord Buddha, Maya Devi Temple, Ashokan Pillar, Monastic Zone.</p>
+							<p class="days"><span>3 days 4 nights</span></p>
+							<hr>
+							<p class="bottom-area d-flex">
+								<span><i class="icon-map-o"></i> Lumbini</span> 
 								<span class="ml-auto"><a href="#">Explore ></a></span>
 							</p>
 						</div>
@@ -276,85 +289,6 @@
 		            </div>
 		          </div>
 		        </div>
-          </div> <!-- .col-md-8 -->
-		  <div class="col-lg-3 sidebar">
-        		<div class="sidebar-wrap bg-light ftco-animate">
-        			<h3 class="heading mb-4">Find City</h3>
-        			<form action="#">
-        				<div class="fields">
-		              <div class="form-group">
-		                <input type="text" class="form-control" placeholder="Destination, City">
-		              </div>
-		              <div class="form-group">
-		                <div class="select-wrap one-third">
-	                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-	                    <select name="" id="" class="form-control" placeholder="Keyword search">
-	                      <option value="">Select Location</option>
-	                      <option value="">San Francisco USA</option>
-	                      <option value="">Berlin Germany</option>
-	                      <option value="">Lodon United Kingdom</option>
-	                      <option value="">Paris Italy</option>
-	                    </select>
-	                  </div>
-		              </div>
-		              <div class="form-group">
-		                <input type="text" id="checkin_date" class="form-control" placeholder="Date from">
-		              </div>
-		              <div class="form-group">
-		                <input type="text" id="checkin_date" class="form-control" placeholder="Date to">
-		              </div>
-		              <div class="form-group">
-		              	<div class="range-slider">
-		              		<span>
-										    <input type="number" value="25000" min="0" max="120000"/>	-
-										    <input type="number" value="50000" min="0" max="120000"/>
-										  </span>
-										  <input value="1000" min="0" max="120000" step="500" type="range"/>
-										  <input value="50000" min="0" max="120000" step="500" type="range"/>
-										  </svg>
-										</div>
-		              </div>
-		              <div class="form-group">
-		                <input type="submit" value="Search" class="btn btn-primary py-3 px-5">
-		              </div>
-		            </div>
-	            </form>
-        		</div>
-        		<div class="sidebar-wrap bg-light ftco-animate">
-        			<h3 class="heading mb-4">Star Rating</h3>
-        			<form method="post" class="star-rating">
-							  <div class="form-check">
-									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-									<label class="form-check-label" for="exampleCheck1">
-										<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></p>
-									</label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						    	   <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i></span></p>
-						      </label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-						     </label>
-							  </div>
-							  <div class="form-check">
-							    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-						      </label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-							    </label>
-							  </div>
-							</form>
-        		</div>
           </div>
         </div>
       </div>
